@@ -1,0 +1,31 @@
+body {
+    background-image: linear-gradient(to right, #ececec, #d4d1d0) !important;
+    overflow: hidden;
+}
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("./fonts/CenturyGothic.ttf") format("truetype");
+    /* Add additional font formats if necessary */
+    /* Specify the correct path to the font files */
+}
+
+@font-face {
+    font-family: "Impact";
+    src: url("./fonts/impact.ttf") format("truetype");
+    /* Add additional font formats if necessary */
+    /* Specify the correct path to the font files */
+}
+
+@font-face {
+    font-family: "HindSiliguri";
+    src: url("./fonts/HindSiliguri-SemiBold.ttf") format("truetype");
+    /* Add additional font formats if necessary */
+    /* Specify the correct path to the font files */
+}
+
+@font-face {
+    font-family: "HindSiliguriBold";
+    src: url("./fonts/HindSiliguri-Bold.ttf") format("truetype");
+    /* Add additional font formats if necessary */
+    /* Specify the correct path to the font files */
+}

@@ -1,0 +1,45 @@
+.menubar {
+    background-color: #182a30;
+    padding: 20px 0px;
+}
+
+.defaultBtn {
+    background-color: #54defe;
+    padding: 5px 25px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.defaultBtn:hover {
+    box-shadow: 0px 0px 10px #54defe;
+}
+.defaultBtn:hover .defaultBtnContent {
+    letter-spacing: 5px;
+    transition: 0.5s;
+}
+
+.defaultBtnContent {
+    color: #182a30;
+    transition: 0.5s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "CenturyGothic", sans-serif;
+}
+
+@media (max-width: 576px) {
+    .btn-wrap {
+        margin-top: 20px;
+    }
+    .defaultBtn {
+        margin-top: 10px;
+        border-radius: 0px;
+    }
+    .defaultBtn:hover {
+        background-color: #182a30;
+    }
+    .defaultBtn:hover .defaultBtnContent {
+        color: #54defe;
+    }
+}

@@ -1,0 +1,39 @@
+.marBtn {
+    margin-top: 20px;
+    padding: 20px;
+    border: none;
+    background-color: #182a30;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.marBtnContent {
+    text-decoration: none;
+    color: #54defe;
+    font-family: "CenturyGothic";
+    font-weight: bold;
+    transition: 1s;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.marBtn:hover {
+    box-shadow: 0px 0px 10px #182a30;
+}
+.marBtn:hover .marBtnContent {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .imgwrap {
+        display: none;
+    }
+    .imgwrap img {
+        display: none;
+    }
+    .wrapper {
+        justify-content: center;
+    }
+}
